@@ -1,0 +1,17 @@
+[2023-07-17 17:04:13,715][test_userservice.py 39][INFO]: *************** 开始执行用例 ***************
+[2023-07-17 17:04:13,715][rest_client.py 52][INFO]: 接口请求地址 ==>> http://api.test.premom.tech/user/web/sign/up
+[2023-07-17 17:04:13,715][rest_client.py 53][INFO]: 接口请求方式 ==>> POST
+[2023-07-17 17:04:13,715][rest_client.py 55][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2023-07-17 17:04:13,715][rest_client.py 57][INFO]: 接口请求 params 参数 ==>> null
+[2023-07-17 17:04:13,716][rest_client.py 59][INFO]: 接口请求体 data 参数 ==>> null
+[2023-07-17 17:04:13,716][rest_client.py 61][INFO]: 接口请求体 json 参数 ==>> {
+    "username": "test256@premom.com",
+    "password": "123456",
+    "deviceId": "decbb1ef-e41c-4cbd-9265-902415f00504"
+}
+[2023-07-17 17:04:13,716][rest_client.py 63][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-07-17 17:04:13,716][rest_client.py 64][INFO]: 接口 cookies 参数 ==>> null
+[2023-07-17 17:04:13,716][rest_client.py 66][INFO]: 
+[2023-07-17 17:04:13,770][userservice.py 24][INFO]: <Response [510]>
