@@ -1,0 +1,7 @@
+[2023-07-20 15:14:37,451][test_userservice.py 23][INFO]: *************** 开始执行用例 ***************
+[2023-07-20 15:14:37,452][rest_client.py 69][INFO]: 接口请求地址 ==>> http://api.test.premom.tech/user/web/sign/in
+[2023-07-20 15:14:37,452][rest_client.py 72][INFO]: 接口请求方式 ==>> POST
+[2023-07-20 15:14:37,453][rest_client.py 75][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2023-07-20 15:14:37,453][rest_client.py 78][INFO]: 接口请求 params 参数 ==>> null

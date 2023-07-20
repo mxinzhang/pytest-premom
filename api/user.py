@@ -16,7 +16,7 @@ class UserService(RestClient):
             api_root_url (str): The root URL of the API.
             **kwargs: Additional keyword arguments.
         """
-        super(RestClient, self).__init__(api_root_url, **kwargs)
+        super(UserService, self).__init__(api_root_url, **kwargs)
 
     def webUserLogin(self, **kwargs):
         """

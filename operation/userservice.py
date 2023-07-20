@@ -21,14 +21,13 @@ def webUserLogin(email, password, deviceId):
         "Content-Type": "application/json"
     }
     res = userservice.webUserLogin(json=json_data, headers=header)
-    logger.info(res)
     result.success = False
+    logger.info(res.json())
     if res.json()["code"] == 200:
         result.success = True
-    # else:
-    #     result.error = "接口返回码是 【 {} 】, 返回信息：{} ".format(
-    #         res.json()["code"], res.json())
-    # result.msg = res.json()["msg"]
+    else:
+        result.error = "接口返回码是 【 {} 】, 返回信息：{} ".format(
+            res.json()["code"], res.json())
+    result.msg = res.json()["message"]
     result.response = res
-    logger.info("注册用户 ==>> 返回结果 ==>> {}".format(result.response.text))
     return result
